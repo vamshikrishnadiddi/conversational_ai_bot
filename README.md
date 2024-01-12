@@ -1,6 +1,6 @@
 **This is a conversational AI bot**
 
-Technologies used are python, langchain, streamlit, pinecone DB
+Technologies used are python, langchain, streamlit, pinecone DB, OpenAI
 
 This is a conversational Ai bot , which interacts like a human with the customers and
 
