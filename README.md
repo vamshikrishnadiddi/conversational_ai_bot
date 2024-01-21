@@ -2,16 +2,13 @@
 
 Technologies used are python, langchain, streamlit, pinecone DB, OpenAI
 
-This is a conversational Ai bot , which interacts like a human with the customers and
+Thisconversational Ai bot , interacts like a human with the customers and
 
-assist them about the social media platform.
+assist them about the social media platform called coto which is only for women.
 
-I have trained the bot with a social media platform so
+So the bot only answers regarding the queries related to Coto and assist customers with 
 
-bot can answer the queries regarding the platform and assist with
-
-any technical issues and help them resolve it
-
+any technical issues
 
 
 
