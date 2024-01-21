@@ -1,3 +1,7 @@
+"""
+    This file helps feeding the custom knowledge to Vector Databases 
+    In simple words add knoeledge to chatbot
+"""
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import SentenceTransformerEmbeddings
