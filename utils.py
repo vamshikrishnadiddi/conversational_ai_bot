@@ -2,12 +2,12 @@ from sentence_transformers import SentenceTransformer
 import pinecone
 import openai
 import streamlit as st
-openai.api_key = "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"
+openai.api_key = "<openai_api_key>"
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-pinecone.init(api_key='e145cf44-347e-4854-a802-525f5c8e3a05', environment='gcp-starter')
+pinecone.init(api_key='<pinecone_api>', environment='gcp-starter')
 index = pinecone.Index('coto-index')
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="<openai_api_key")
 def find_match(input):
     input_em = model.encode(input).tolist()
     result = index.query(input_em, top_k=2, includeMetadata=True)
