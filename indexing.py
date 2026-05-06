@@ -44,7 +44,7 @@ embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
 
 pinecone.init(
-    api_key="e145cf44-347e-4854-a802-525f5c8e3a05",  # find at app.pinecone.io
+    api_key="<pinecone_api_key>",  # find at app.pinecone.io
     environment="gcp-starter"  # next to api key in console
 )
 index_name = "coto-index"
